@@ -1,0 +1,275 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: rgb(255, 255, 255);
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.skidka {
+    margin-top: 258px;
+    margin-bottom: 242px;
+}
+
+.skidka-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../img/line1.png);
+    background-size: 492px;
+    background-position: 315px;
+    background-repeat: no-repeat;
+}
+
+.skidka-content p {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    width: 699px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background: #0085FF;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFF;
+    border-radius: 81px;
+    border: none;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 370px;
+    /* border: 3px solid red; */
+    background: #FFFFFF;
+    border-radius: 25px;
+    padding: 30px 30px 60px 30px;
+    box-shadow: 0px 10px 50px 0px #00305C1A;
+}
+
+.card h3 {
+    font-weight: 700;
+    font-size: 18px;
+    color: #263238;
+    margin-top: 15px;
+}
+
+.card p {
+    font-weight: 300;
+    font-size: 16px;
+    color: #263238;
+    width: 310px;
+    margin-top: 15px;
+}
+
+.card img {
+    width: 230px;
+    height: 230px;
+
+}
+
+.text {
+    opacity: 60px;
+    font-size: 36px;
+    text-align: center;
+}
+
+.main1 {
+    box-shadow: 0px 10px 50px 0px #00305C1A;
+
+    border-radius: 20px;
+    text-align: center;
+    width: 270px;
+    height: 360px;
+}
+
+.main2 {
+    box-shadow: 0px 10px 50px 0px #00305C1A;
+
+    border-radius: 20px;
+    text-align: center;
+    width: 270px;
+    height: 360px;
+}
+
+.main3 {
+    box-shadow: 0px 10px 50px 0px #00305C1A;
+
+    border-radius: 20px;
+    text-align: center;
+    width: 270px;
+    height: 360px;
+}
+
+.main4 {
+    box-shadow: 0px 10px 50px 0px #00305C1A;
+
+    border-radius: 20px;
+    text-align: center;
+    width: 270px;
+    height: 360px;
+}
+
+.menu {
+    margin-top: 60px;
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+}
+
+.main1-text {
+    margin-left: 30px;
+    max-width: 210px;
+    margin-top: 60px;
+}
+
+.main1-text p {
+    margin-top: 30px;
+}
+
+.textmany {
+    font-size: 36px;
+    opacity: 60px;
+    text-align: center;
+    margin-top: 250px;
+}
+
+.bigmony1 {
+    box-shadow: 0px 10px 50px 0px #00305C1A;
+
+    border-radius: 25px;
+    justify-content: center;
+    display: flex;
+    width: 570px;
+    height: 308px;
+    /* border:solid red; */
+
+}
+
+.bigmony2 {
+    box-shadow: 0px 10px 50px 0px #00305C1A;
+
+    border-radius: 25px;
+    justify-content: center;
+    display: flex;
+    width: 570px;
+    height: 308px;
+    /* border:solid red; */
+
+}
+
+.mony {
+    margin-left: 43px;
+    display: flex;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.bigmony1 p {
+    max-width: 250px;
+}
+
+.bigmony2 p {
+    max-width: 250px;
+}
+
+.bigmony1text {
+    margin-top: 70px;
+}
+
+.bigmony2text {
+    margin-top: 70px;
+}
+
+.bigmony1img {
+    margin-top: 70px;
+}
+
+.bigmony2img {
+    margin-top: 70px;
+}
+
+.textmonet {
+    font-size: 36px;
+    opacity: 60px;
+    text-align: center;
+    margin-top: 250px;
+}
+
+.bonus {
+    margin-top: 66px;
+    margin-left: 100px;
+    display: flex;
+}
+
+.bonus-text {
+    margin-top: 80px;
+    justify-content: center;
+}
+
+.bonus-text p {
+    margin-top: 10px;
+    max-width: 250px;
+}
+.BACK {
+    display: flex;
+}
+
+.nabr {
+    justify-content: center;
+    gap: 30px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.mnb2 h4 {
+
+    max-width: 400px;
+}
+
+.mnb2 {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.mnb2 p {
+    max-width: 300px;
+    font-size: 36px;
+    opacity: 60px;
+    text-align: center;
+
+}
+
+.mnb2 button{
+    font-size: 20px;
+    color: #FFFFFF;
+    background: radial-gradient(87.68% 100% at 50.19% 100%, #0084FF 0%, #5CB0FF 100%);
+    border: 0;
+    margin-top: 20px;
+    width: 269px;
+height:81px;
+gap: 10px;
+border-radius: 81px;
+
+}
